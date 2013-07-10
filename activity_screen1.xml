@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+	android:windowActionBarOverlay="false">
+	
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="94dp"
+        android:background="#000000"
+        android:text="Make my decision!"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="138dp"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="First Event"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:typeface="sans" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText2"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:gravity="right"
+        android:hint="Second Event"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:typeface="sans" />
+
+   
+
+</RelativeLayout>
